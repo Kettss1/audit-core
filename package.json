@@ -1,0 +1,35 @@
+{
+  "name": "audit-core",
+  "version": "0.1.1",
+  "type": "module",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "apca-w3": "^0.1.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/browser": "^4.0.0",
+    "@vitest/browser-playwright": "^4.0.18",
+    "playwright": "^1.50.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.0"
+  }
+}
