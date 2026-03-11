@@ -1,5 +1,9 @@
 # audit-core
 
+[![npm version](https://img.shields.io/npm/v/audit-core)](https://www.npmjs.com/package/audit-core)
+[![CI](https://github.com/Kettss1/audit-core/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USER/audit-core/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/audit-core)](./LICENSE)
+
 A framework-agnostic accessibility audit engine for the web. Point it at a DOM, get back structured violations, passes, and incomplete checks — ready to power whatever interface you're building on top.
 
 ---
